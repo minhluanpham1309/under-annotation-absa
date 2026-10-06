@@ -1,0 +1,34 @@
+set,metric,winner,n_seeds_won
+in-domain,LRAP,XLM-R,3
+in-domain,macroF1,XLM-R,3
+in-domain,microF1,XLM-R,3
+in-domain,primary,XLM-R,3
+semeval15_en_hotel,LRAP,XLM-R,2
+semeval15_en_hotel,LRAP,mBERT,1
+semeval15_en_hotel,macroF1,XLM-R,2
+semeval15_en_hotel,macroF1,mBERT,1
+semeval15_en_hotel,microF1,XLM-R,2
+semeval15_en_hotel,microF1,mBERT,1
+semeval15_en_hotel,primary,XLM-R,1
+semeval15_en_hotel,primary,mBERT,1
+semeval15_en_hotel,primary,mT5,1
+semeval16_en_rest,LRAP,XLM-R,3
+semeval16_en_rest,macroF1,XLM-R,3
+semeval16_en_rest,microF1,XLM-R,3
+semeval16_en_rest,primary,XLM-R,3
+semeval16_nl_rest,LRAP,XLM-R,3
+semeval16_nl_rest,macroF1,XLM-R,3
+semeval16_nl_rest,microF1,XLM-R,3
+semeval16_nl_rest,primary,XLM-R,3
+target,LRAP,mT5,3
+target,macroF1,XLM-R,2
+target,macroF1,mT5,1
+target,microF1,XLM-R,2
+target,microF1,mT5,1
+target,primary,XLM-R,1
+target,primary,mBERT,1
+target,primary,mT5,1
+target (target-CV thresholds),macroF1,mBERT,1
+target (target-CV thresholds),macroF1,mT5,2
+target (target-CV thresholds),microF1,mBERT,1
+target (target-CV thresholds),microF1,mT5,2

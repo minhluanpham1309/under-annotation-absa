@@ -1,0 +1,12 @@
+# datasets are not distributed with this repository (see data/README.md)
+vn_hotel_res_aspect/
+dataset_luan/
+data_unilever/
+data_external/raw/
+data/test_review_overlap.csv
+results/new_run/
+results/new_run_*.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

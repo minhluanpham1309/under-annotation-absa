@@ -1,0 +1,4 @@
+﻿Model,Primary-aspect acc (in-domain),Primary-aspect acc (transfer)
+mBERT,0.8604,0.861
+XLM-R,0.8828,0.8711
+mT5,0.857,0.8857

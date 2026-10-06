@@ -1,0 +1,37 @@
+{
+  "model": "mBERT",
+  "seed": 13,
+  "no_tfidf": true,
+  "epochs": 10,
+  "patience": 3,
+  "bs": 16,
+  "max_len": 128,
+  "lr_enc": 2e-05,
+  "lr_head": 0.0001,
+  "tfidf_dim": 0,
+  "data_dir": "vn_hotel_res_aspect",
+  "train_file": null,
+  "val_file": null,
+  "eval": [
+    "data_unilever/splits/transfer_test.csv",
+    "data_external/semeval15_en_hotel.csv",
+    "data_external/semeval16_en_rest.csv",
+    "data_external/semeval16_nl_rest.csv"
+  ],
+  "amp": false,
+  "workers": 2,
+  "out": "results/gpu_runs",
+  "tag": "mBERT_notfidf_e10_s13",
+  "hf_path": null,
+  "limit": null,
+  "train_time_min": 29.5,
+  "epochs_run": 5,
+  "early_stopped_epoch": 5,
+  "best_val_loss": 0.11184628947765939,
+  "eval_sets": [
+    "transfer_test",
+    "semeval15_en_hotel",
+    "semeval16_en_rest",
+    "semeval16_nl_rest"
+  ]
+}

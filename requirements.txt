@@ -1,0 +1,12 @@
+torch>=2.1
+transformers>=4.40
+sentencepiece
+protobuf
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+scipy
+statsmodels
+matplotlib
+lingua-language-detector
+openpyxl
